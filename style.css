@@ -1,19 +1,13 @@
 * {
 	box-sizing: border-box;
 }
-body {
-	margin: 0;
-}
+body { margin: 0; }
 .container {
 	width: 940px;
 	margin: auto;
 }
-header {
-	background: linear-gradient(#dadada, #fff);
-}
-nav {
-	padding: 37px 0 25px 0;
-}
+header { background: linear-gradient(#dadada, #fff); }
+nav { padding: 37px 0 25px 0; }
 nav ul {
 	list-style: none;
 	padding: 0;
@@ -33,12 +27,8 @@ nav ul li a {
 	font: bold .87rem Georgia;
 	color: #666666;
 }
-main {
-	background: #FFF url('img/mainbg.jpg') top repeat-x;
-}
-main .container {
-	padding: 22px 0 0 0;
-}
+main { background: #FFF url('img/mainbg.jpg') top repeat-x; }
+main .container { padding: 22px 0 0 0; }
 #slider {
 	height: 340px;
 	border: 1px solid #c6c6c6;
@@ -54,17 +44,13 @@ hr {
 	border: 0;
 	border-top: 1px solid #e5e5e5;
 }
-.row {
-	overflow: auto;
-}
+.row { overflow: auto; }
 .col {
 	width: 300px;
 	float: left;
 	margin: 0 20px 0 0;
 }
-.col:last-child {
-	margin: 0;
-}
+.col:last-child { margin: 0; }
 .ustbasliq {
 	font: 1.3em Georgia;
 	color: #11719e;
@@ -188,12 +174,8 @@ footer {
 	font: .68em Helvetica;
 	color: #999999;
 }
-footer ul {
-	margin: -10px 0 0 -40px;
-}
-footer li {
-	display: inline-block;
-}
+footer ul { margin: -10px 0 0 -40px; }
+footer li { display: inline-block; }
 footer li a {
 	display: block;
 	font: .68em Helvetica;
